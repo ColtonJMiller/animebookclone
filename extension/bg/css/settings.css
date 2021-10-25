@@ -1,0 +1,81 @@
+body {
+    background-color: #CDCCC5;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.ab-form-section {
+    background-color: #F2F2EF;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 
+                0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+.ab-form-section.thin-form {
+    max-width: 740px;
+}
+
+.ab-option-label {
+    font-weight: bold;
+}
+
+.tutorial {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.tutorial-video {
+    margin-left: 10px;
+}
+
+.tiny-tip {
+    background-color: #007bff;
+    color: #FFF;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-left: 4px;
+}
+
+.tiny-warning {
+    background-color: #DD3355;
+    color: #FFF;
+    border-radius: 50%;
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.anki-no-update-warning {
+    display: flex;
+    flex-direction: row;
+}
+
+.mono-text, .ffmpeg-command {
+    font-family: consolas, "Liberation Mono", courier, monospace;
+}
+
+.mono-text {
+    padding: 2px;
+    color: #555;
+    background-color: #EED;
+}
+
+.ffmpeg-command {
+    background-color: #555;
+    color: #FFF;
+    padding: 2px;
+    overflow-x: auto;
+}
